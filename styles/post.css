@@ -1,0 +1,35 @@
+/* Post */
+
+.button {
+    display: inline-block;
+    border: 2px solid black;
+    padding: 5px;
+    color: black;
+    margin: 30px 0 20px 0;
+}
+
+.button:active {
+    color: darkgray;
+    border: 2px solid darkgray;
+}
+
+.post {
+    border: 2px solid black;
+    width: 280px;
+    margin: 20px auto;
+}
+
+.post h5 {
+    text-align: left;
+    margin: 20px 25px 5px 25px;
+}
+
+.post h6 {
+    text-align: left;
+    margin: 0 25px;
+}
+
+.post p {
+    width: auto;
+    margin: 20px 25px;
+}

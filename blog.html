@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/post.css">
+    <script src="./scripts/navigation.js" defer></script>
     <title>Natalie Crabtree</title>
 </head>
 <body>
     <header>
-        <img src="images/#" alt="Natlie Crabtree logo" srcset="">
-        <div id="openButton"></div>
+        <img class="logo" src="https://placekitten.com/100/100" alt="Natlie Crabtree logo" srcset="">
+        <div id="openButton" onclick="openNav()"></div>
     </header>
 
     <nav>
@@ -19,12 +22,12 @@
         <a href="./testimonials.html">Testimonials</a>
         <a class="active" href="./blog.html">Blog</a>
         <a href="./contact.html">Contact</a>
-        <div id="closeButton"></div>
+        <div id="closeButton" onclick="closeNav()"></div>
     </nav>
 
     <main>
         <h2>Blog</h2>
-        <a href="./contact.html">New Post</a>
+        <a class="button" href="./contact.html">New Post</a>
         
         <div class="post">
             <h5>Jake</h5>
