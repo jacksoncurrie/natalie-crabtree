@@ -2,7 +2,8 @@
 
 .link {
     display: block;
-    width: 280px;
+    width: 80%;
+    max-width: 500px;
     height: 280px;
     margin: 30px auto;
     position: relative;
@@ -23,11 +24,17 @@
 }
 
 h3 {
-    margin-top: 120px;
+    margin-top: 170px;
     color: white;
 }
 
 .link h5 {
     margin: 5px;
     color: white;
+}
+
+@media only screen and (min-width: 768px) {
+    .link {
+        height: 400px;
+    }
 }

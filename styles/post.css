@@ -15,7 +15,8 @@
 
 .post {
     border: 2px solid black;
-    width: 280px;
+    width: 80%;
+    max-width: 500px;
     margin: 20px auto;
 }
 
@@ -32,4 +33,18 @@
 .post p {
     width: auto;
     margin: 20px 25px;
+}
+
+@media only screen and (min-width: 768px) {
+    .post h5 {
+        margin: 40px 30px 15px 30px;
+    }
+
+    .post h6 {
+        margin: 0 30px;
+    }
+
+    .post p {
+        margin: 20px 30px 40px 30px;
+    }
 }
