@@ -5,7 +5,7 @@
     border: 2px solid black;
     padding: 5px;
     color: black;
-    margin: 30px 0 20px 0;
+    margin: 30px 0;
 }
 
 .button:active {
@@ -17,7 +17,7 @@
     border: 2px solid black;
     width: 80%;
     max-width: 500px;
-    margin: 20px auto;
+    margin: 0 auto 40px auto;
 }
 
 .post h5 {
@@ -35,7 +35,7 @@
     margin: 20px 25px;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 760px) {
     .post h5 {
         margin: 40px 30px 15px 30px;
     }
@@ -46,5 +46,12 @@
 
     .post p {
         margin: 20px 30px 40px 30px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .post {
+        display: inline-block;
+        margin: 0 20px 40px 20px;
     }
 }

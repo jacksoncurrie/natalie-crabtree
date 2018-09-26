@@ -11,7 +11,6 @@
     outline: none;
     user-select: none;
     -webkit-tap-highlight-color: transparent;
-    
 }
 
 ::-moz-focus-inner {
@@ -102,6 +101,10 @@ main p {
     max-width: 600px;
 }
 
+.research {
+    max-width: 800px;
+}
+
 h5 {
     margin-top: 10px;
 }
@@ -159,6 +162,37 @@ footer p a {
     text-decoration: underline;
 }
 
-fotter p a:active {
-    color: #AAA; 
+footer p a:active {
+    color: #AAA;
+}
+
+@media only screen and (min-width: 760px) {
+    .titleHeader {
+        height: 500px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .titleHeader {
+        height: 600px;
+    }
+
+    .contact {
+        display: inline-block;
+        width: auto;
+        margin: 20px 20px 0 20px;
+    }
+
+    .about {
+        position: relative;
+        width: 700px;
+        height: 200px;
+        padding: 15px 0 0 200px;
+        margin: 40px auto;
+    }
+    .me {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
 }
