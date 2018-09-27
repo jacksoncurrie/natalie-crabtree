@@ -13,6 +13,10 @@
     object-fit: cover;
 }
 
+.topHeading {
+    margin-top: 80px;
+}
+
 .title {
     margin: 0 10px 10px 10px;
     color: white;
