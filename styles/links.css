@@ -9,12 +9,15 @@
     position: relative;
     border: 5px solid #FFB800;
     transition: 0.3s;
+    overflow-y: hidden;
 }
 
 .link:hover img{
     filter: blur(5px);
     transition: 0.3s;
     width: 150%;
+    height: 150%;
+    margin-top: -25%;
     margin-left: -25%;
 }
 

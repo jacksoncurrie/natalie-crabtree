@@ -2,8 +2,12 @@
 
 .contact {
     text-align: center;
-    margin: 20px auto 0 auto;
+    margin: 0 auto;
     font-family: 'Hind Siliguri', sans-serif;
+}
+
+.top {
+    margin-top: 20px;
 }
 
 .heading {
@@ -15,7 +19,7 @@
     color: #0041FF
 }
 
-.contact a:hover {
+.contact > a:hover {
     color: #FFB800;
 }
 

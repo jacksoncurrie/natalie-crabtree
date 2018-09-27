@@ -33,6 +33,7 @@
 
 .me {
     border: 5px solid #0041FF;
+    width: 200px;
 }
 
 @media only screen and (min-width: 760px) {
@@ -83,7 +84,6 @@
         top: 0;
         left: 0;
         height: 100%;
-        max-width: 200px;
         object-fit: cover;
     }
 }
