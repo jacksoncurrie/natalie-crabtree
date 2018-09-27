@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="./styles/contact.css">
     <script src="./scripts/navigation.js" defer></script>
+    <script src="./scripts/validation.js" defer></script>
     <title>Natalie Crabtree</title>
 </head>
 <body>
@@ -32,17 +33,22 @@
         <p class="contact top"><span class="heading">Email:</span> <a href="mailto:example@email.com">example@email.com</a></p>
         <p class="contact"><span class="heading">Phone:</span> <a href="tel:+123456789">+1 (2) 345 6789</a></p>
 
-        <form action="https://formspree.io/j.currie1999@gmail.com" method="POST">
+        <form name="contact" onsubmit="return validate()" action="https://formspree.io/j.currie1999@gmail.com" method="POST">
             <span class="heading">Your Email</span>
-            <input type="email" placeholder="e.g. example@email.com" name="_replyto">
+            <input type="email" placeholder="e.g. example@email.com" name="email">
+            <p class="invalid">Email required</p>
 
             <span class="heading">Your Name</span>
             <input type="text" placeholder="e.g. Sarah" name="name">
+            <p class="invalid">Name required</p>
+
+            <span class="heading">Subject</span>
+            <input type="text" placeholder="e.g. Qi Gong" name="subject">
+            <p class="invalid">Subject required</p>
 
             <span class="heading">Your Message</span>
             <textarea name="message" placeholder="Type message here" cols="30" rows="10"></textarea>
-
-            <input type="text" name="_gotcha" style="display:none">
+            <p class="invalid">Message required</p>
 
             <button type="submit">Send</button>
         </form>

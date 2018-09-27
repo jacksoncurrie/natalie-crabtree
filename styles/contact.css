@@ -15,11 +15,24 @@
     font-family: 'Hind Siliguri', sans-serif;
 }
 
+.invalid {
+    visibility: hidden;
+    text-align: center;
+    margin: 2px auto;
+    font-weight: 600;
+    font-size: 14px;
+    color: #C33;
+}
+
+.visible {
+    visibility: visible;
+}
+
 .contact > a {
     color: #0041FF
 }
 
-.contact > a:hover {
+.contact > a:hover, .contact > a:focus {
     color: #FFB800;
 }
 
@@ -45,6 +58,10 @@ input:focus, input:hover, textarea:focus, textarea:hover {
     border: 2px solid #FFB800;
 }
 
+.error {
+    border: 2px solid #C33;
+}
+
 button {
     display: block;
     margin: 20px auto;
@@ -58,7 +75,7 @@ button {
     color: #222;
 }
 
-button:hover {
+button:hover, button:focus {
     color: #FFB800;
     border: 2px solid #FFB800;
 }

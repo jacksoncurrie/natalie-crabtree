@@ -8,12 +8,6 @@
     overflow-x: hidden;
     text-decoration: none;
     outline: none;
-    user-select: none;
-    -webkit-tap-highlight-color: transparent;
-}
-
-::-moz-focus-inner {
-    border: 0;
 }
 
 body {
@@ -124,7 +118,7 @@ footer p a {
     text-decoration: underline;
 }
 
-footer p a:hover {
+footer p a:hover, footer p a:focus {
     color: #AAA;
 }
 
