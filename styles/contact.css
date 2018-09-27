@@ -1,0 +1,73 @@
+/* Contact */
+
+.contact {
+    text-align: center;
+    margin: 20px auto 0 auto;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.heading {
+    font-weight: 600;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.contact > a {
+    color: #0041FF
+}
+
+.contact a:hover {
+    color: #FFB800;
+}
+
+form span {
+    display: block;
+    margin: 30px 10px 10px 10px;
+    font-size: 16px;
+    color: #222;
+}
+
+input, textarea {
+    border: 2px solid #222;
+    padding: 8px;
+    width: 280px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    background-color: white;
+    color: #222;
+}
+
+input:focus, input:hover, textarea:focus, textarea:hover {
+    border: 2px solid #FFB800;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    background: none;
+    border: 2px solid #222;
+    padding: 5px 10px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 16px;
+    color: #222;
+}
+
+button:hover {
+    color: #FFB800;
+    border: 2px solid #FFB800;
+}
+
+/* Desktop */
+@media only screen and (min-width: 1200px) {
+    .contact {
+        display: inline-block;
+        width: auto;
+        margin: 20px 20px 0 20px;
+    }
+
+    textarea {
+        width: 700px;
+    }
+}

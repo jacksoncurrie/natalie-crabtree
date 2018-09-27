@@ -1,0 +1,77 @@
+.research {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 400;
+    max-width: none;
+}
+
+.top {
+    text-align: center;
+}
+
+.heading {
+    font-weight: 600;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.qigongLeft, .qigongRight {
+    height: 250px;
+    width: 80%;
+    max-width: 400px;
+    object-fit: cover
+}
+
+.qigongLeft {
+    border: 5px solid #0041FF;
+}
+
+.qigongRight {
+    border: 5px solid #FFB800;
+}
+
+/* Tablet */
+@media only screen and (min-width: 760px) {
+    .qigongRight, .qigongLeft {
+        height: 300px;
+    }
+}
+
+/* Desktop */
+@media only screen and (min-width: 1200px) {
+
+    .research {
+        width: auto;
+        margin: 20px 0;
+    }
+
+    .shiftRight {
+        position: relative;
+        width: 80%;
+        max-width: 1300px;
+        margin: 50px auto;
+        padding-left: 430px;
+    }
+
+    .qigongLeft {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        max-width: 400px;
+    }
+
+    .shiftLeft {
+        position: relative;
+        width: 80%;
+        max-width: 1300px;
+        margin: 50px auto;
+        padding-right: 430px;
+    }
+    
+    .qigongRight {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        max-width: 400px;
+    }
+}
