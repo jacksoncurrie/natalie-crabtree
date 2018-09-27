@@ -27,7 +27,7 @@ body {
     width: 30px;
     position: absolute;
     top: 30px;
-    left: 20px;
+    left: 30px;
     cursor: pointer;
 }
 
@@ -71,7 +71,7 @@ nav a:hover {
     width: 30px;
     position: absolute;
     top: 30px;
-    left: 20px;
+    left: 30px;
     cursor: pointer;
 }
 
@@ -130,5 +130,28 @@ footer p a:hover, footer p a:focus {
 
     footer p {
         font-size: 14px;
+    }
+
+    #openButton {
+        top: 40px;
+        left: 40px;
+    }
+
+    #closeButton {
+        top: 40px;
+        left: 40px;
+    }
+}
+
+/* Desktop */
+@media only screen and (min-width: 1200px) {
+    #openButton {
+        top: 50px;
+        left: 60px;
+    }
+
+    #closeButton {
+        top: 50px;
+        left: 60px;
     }
 }

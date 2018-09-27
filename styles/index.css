@@ -45,6 +45,10 @@
         height: 500px;
     }
 
+    .titleLogo {
+        margin-top: 100px;
+    }
+
     .title {
         font-size: 35px;
     }
@@ -89,5 +93,16 @@
         left: 0;
         height: 100%;
         object-fit: cover;
+    }
+}
+
+/* Large Screens */
+@media only screen and (min-width: 1500px) {
+    .titleHeader {
+        height: 750px;
+    }
+
+    .titleLogo {
+        margin-top: 200px;
     }
 }
