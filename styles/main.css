@@ -87,7 +87,7 @@ nav a:hover {
 .topHeading {
     margin: 20px 10px 0 10px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     color: #222;
 }
 
@@ -110,7 +110,7 @@ footer {
 
 footer p {
     color: #999;
-    margin: 15px;
+    margin: 20px;
     font-family: 'Hind Siliguri', sans-serif;
     font-weight: 400;
     font-size: 12px;
@@ -128,7 +128,7 @@ footer p a:hover {
 /* Tablet */
 @media only screen and (min-width: 760px) {
     .topHeading {
-        font-size: 30px;
+        font-size: 35px;
     }
 
     footer p {
