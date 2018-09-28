@@ -14,7 +14,7 @@
 }
 
 .topHeading {
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 .title {
@@ -79,7 +79,7 @@
         position: relative;
         width: 800px;
         padding: 0 0 0 200px;
-        margin: 40px auto;
+        margin: 30px auto;
         overflow: hidden;
     }
 
